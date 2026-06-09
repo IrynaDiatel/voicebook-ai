@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Sparkles, ArrowRight, Play, Upload, Headphones, Zap, Globe, FileText, Star } from "lucide-react";
+import { Sparkles, ArrowRight, Play, Upload, Headphones, Zap, Globe, FileText } from "lucide-react";
 
 const stats = [
   { value: "8+", label: "форматів файлів" },
@@ -185,33 +185,6 @@ export function HeroSection() {
                 >
                   {fmt}
                 </span>
-              ))}
-            </div>
-          </motion.div>
-
-          {/* Social proof */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.8 }}
-            className="mt-10 flex items-center justify-center gap-3"
-          >
-            <div className="flex -space-x-2">
-              {["О", "М", "І", "А", "В"].map((letter, i) => (
-                <div
-                  key={i}
-                  className="w-8 h-8 rounded-full bg-gradient-to-br from-brand-600 to-violet-600 flex items-center justify-center text-white text-xs font-bold border-2 border-[#1e1b4b]"
-                >
-                  {letter}
-                </div>
-              ))}
-            </div>
-            <div className="text-sm text-brand-300/70">
-              <span className="text-white font-semibold">1,200+</span> користувачів вже конвертують
-            </div>
-            <div className="flex items-center gap-0.5">
-              {Array(5).fill(null).map((_, i) => (
-                <Star key={i} className="w-3.5 h-3.5 text-yellow-400 fill-current" />
               ))}
             </div>
           </motion.div>
