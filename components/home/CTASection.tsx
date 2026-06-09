@@ -37,7 +37,7 @@ export function CTASection() {
 
             <p className="text-lg text-brand-200 mb-10 max-w-2xl mx-auto">
               Завантажте перший файл зараз і отримайте MP3 за лічені хвилини.
-              Голоси Поліна, Остап та ще 11 нейромережевих голосів чекають.
+              11 нейромережевих голосів чекають.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -50,17 +50,7 @@ export function CTASection() {
                 Почати конвертацію
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <Link
-                href="/pricing"
-                className="flex items-center gap-2 px-8 py-4 rounded-2xl border-2 border-white/30 text-white font-semibold text-lg hover:bg-white/10 hover:border-white/50 transition-all duration-300"
-              >
-                Переглянути тарифи
-              </Link>
             </div>
-
-            <p className="text-sm text-brand-300 mt-6">
-              5 безкоштовних файлів щомісяця · Без кредитної карти · Скасування будь-коли
-            </p>
           </div>
         </motion.div>
       </div>
