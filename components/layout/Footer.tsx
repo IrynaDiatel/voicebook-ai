@@ -58,6 +58,7 @@ export function Footer() {
                 </span>
               ))}
             </div>
+            </div>
 
             
 
