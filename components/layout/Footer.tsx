@@ -58,9 +58,34 @@ export function Footer() {
                 </span>
               ))}
             </div>
-            </div>
 
-            
+            {/* Social links */}
+            <div className="flex items-center gap-3">
+              <a
+                href="https://github.com/IrynaDiatel/voicebook-ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-lg text-[var(--text-muted)] hover:text-brand-600 hover:bg-brand-600/10 transition-all duration-200"
+                aria-label="GitHub"
+              >
+                <GithubIcon className="w-5 h-5" />
+              </a>
+              <a
+                href="#"
+                className="p-2 rounded-lg text-[var(--text-muted)] hover:text-brand-600 hover:bg-brand-600/10 transition-all duration-200"
+                aria-label="X (Twitter)"
+              >
+                <XIcon className="w-5 h-5" />
+              </a>
+              <a
+                href="/contact"
+                className="p-2 rounded-lg text-[var(--text-muted)] hover:text-brand-600 hover:bg-brand-600/10 transition-all duration-200"
+                aria-label="Email"
+              >
+                <Mail className="w-5 h-5" />
+              </a>
+            </div>
+          </div>
 
           {/* Product links */}
           <div>
